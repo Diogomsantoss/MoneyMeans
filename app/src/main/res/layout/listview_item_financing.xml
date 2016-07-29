@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:id="@+id/ListLayoutParcel"
+              android:layout_height="fill_parent"
+              android:layout_gravity="end|right">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/container_financing_list">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            android:id="@+id/parcel_value"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="15dp"
+            android:text="valor"
+            android:enabled="true"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:id="@+id/parcel_notification_date"
+            android:layout_gravity="right"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="50px"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="45dp"
+            android:enabled="true"
+            android:textColor="@android:color/black" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="indice"
+                android:id="@+id/parcel_index_number"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="10dp"
+            android:layout_marginLeft="50px"
+            android:layout_marginBottom="10dp"
+            android:enabled="true"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>

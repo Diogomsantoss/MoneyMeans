@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MoneyMeans</string>
+    <string name="action_settings">Configuaracoes</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="expenseName">Nome da Despesa</string>
+    <string name="valueNumber">Valor</string>
+    <string name="label_saldo">Saldo:</string>
+    <string name="txtName">Nome da transação</string>
+    <string name="title_activity_projector">ProjectorActivity</string>
+    <string name="txtbtnadd">Adicionar Transação $</string>
+    <string name="txtdescriptionfinanciamentoview">Módulo de projeção de financiamento</string>
+    <string name="title_activity_activity_financing_projector">ActivityFinancingProjector</string>
+    <string name="txtvalor">Valor</string>
+    <string name="txthoje">Hoje</string>
+    <string name="txtcallbtnprojector">projetor de financiamentos</string>
+    <string name="txttipotexto">Tipo</string>
+    <string name="txtbuttonvoltartelafinanciador">Voltar para módulo financiador</string>
+    <string name="txttotalvaluelist">Valor Total</string>
+    <string name="txtinterestonthelist">Juros</string>
+    <string name="txtparcelsnumberonthelist">numero de parcelas</string>
+    <string name="txtfirstmonthlist">primeiro mes</string>
+    <string name="txtentrecomadatadatransacao">Entre com a data da transação</string>
+    <string name="txttosetdatedialog">calendar to pick the date</string>
+    <string name="txttextobotaograficopizza">New Button</string>
+    <string name="txtbotaograficobarras">New Button</string>
+    <string name="text">Large Text</string>
+
+
+</resources>

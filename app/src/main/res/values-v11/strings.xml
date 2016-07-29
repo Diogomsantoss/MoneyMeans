@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="expenseName">Nome da Despesa</string>
+    <string name="valueNumber">Valor</string>
+    <string name="label_saldo">Saldo:</string>
+    <string name="txtName">Nome da transação</string>
+    <string name="txtbtnadd">Adicionar Transação $</string>
+    <string name="txtvalor">Valor</string>
+    <string name="txtcallbtnprojector">projetor de financiamentos</string>
+    <string name="txttipotexto">Tipo</string>
+</resources>

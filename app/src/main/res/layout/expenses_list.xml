@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/expenses_list_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_saldo"
+        android:layout_gravity="center"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:id="@+id/label_saldo" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_saldo"
+        android:layout_gravity="center" />
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/listView"
+        style="@style/Base.TextAppearance.AppCompat.Body1" />
+
+
+
+
+</LinearLayout>

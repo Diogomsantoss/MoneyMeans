@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="445dp"
+            android:id="@+id/proposals_list_view"
+            android:layout_weight="0.93" />
+
+        <Button
+            style="@android:style/Widget.DeviceDefault.Button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtbuttonvoltartelafinanciador"
+            android:id="@+id/button_call_financing_activity"
+            android:textStyle="bold"
+            android:enabled="true"
+            android:layout_gravity="bottom|center_vertical" />
+
+</LinearLayout>

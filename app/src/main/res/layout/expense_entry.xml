@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:id="@+id/fragment_expense_container"
+        android:weightSum="1">
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtName"
+            android:layout_marginTop="5dp"
+            android:hint="@string/txtName"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/textValue"
+            android:hint="@string/txtvalor"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" />
+
+        <Spinner
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:id="@+id/spinner_category"
+            android:spinnerMode="dialog"
+            android:layout_weight="0.04"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_gravity="center"
+            android:layout_margin="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="DESPESA | ENTRADA"
+            android:id="@+id/label_for_transaction_type_switch"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:layout_marginTop="10dp" />
+
+        <Switch
+            android:id="@+id/switch_transaction_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/switch_thumb"
+            android:textOff="DESPESA"
+            android:textOn="ENTRADA"
+            android:checked="false"
+            android:layout_weight="0.20"
+            android:layout_margin="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Entre com a data da transação"
+            android:id="@+id/label_data_entry"
+            android:layout_gravity="center_horizontal" />
+
+        <!--   <DatePicker
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:calendarViewShown="false"
+               android:layout_gravity="center"
+               android:id="@+id/datePicker"
+               android:padding="0dp" /> -->
+
+        <ImageButton
+            style="@drawable/raisedbutton"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:text="@string/txthoje"
+            android:id="@+id/today_button"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/txtentrecomadatadatransacao"
+            android:enabled="true"
+            android:layout_margin="5dp"
+            android:src="@android:drawable/ic_menu_month"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/txttosetdatedialog"
+            android:tint="@color/background_material_dark"
+            android:adjustViewBounds="false"
+            android:longClickable="false"
+            android:scaleType="centerInside" />
+
+        <Button
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtbtnadd"
+            android:id="@+id/btnAdd"
+            android:layout_marginTop="0dp"
+            android:enabled="false"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/raisedbutton"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:text="@string/txttextobotaograficopizza"
+                android:id="@+id/btnCallPizzaChartActivity"
+                android:src="@drawable/grafico_pizza"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1.08"
+                android:background="@android:color/transparent" />
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:text="@string/txtbotaograficobarras"
+                android:id="@+id/btnCallBarsChartActivity"
+                android:src="@drawable/grafico_tempo"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtcallbtnprojector"
+        android:id="@+id/btnCallProjetor"
+        android:layout_marginTop="0dp"
+        android:layout_margin="0dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="moneymeans"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+
+
+        <!-- Splash screen -->
+
+        <activity
+            android:name="diogosantos.moneymeans.domain.Activities.splashscreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:noHistory="true" >
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <!-- Main activity -->
+        <activity
+            android:name="diogosantos.moneymeans.domain.Activities.MainActivity"
+
+            android:label="@string/app_name" >
+        </activity>
+
+
+        <activity
+            android:name="diogosantos.moneymeans.domain.Activities.FinancingActivity" >
+
+        </activity>
+        <activity
+            android:name="diogosantos.moneymeans.domain.Activities.FinancingListActivity" >
+
+        </activity>
+
+        <activity
+            android:name="diogosantos.moneymeans.domain.Activities.CategoryChartActivity" >
+
+        </activity>
+
+        <activity
+            android:name="diogosantos.moneymeans.domain.Activities.TimeChartActivity" >
+
+        </activity>
+
+
+
+
+
+        <service android:name="diogosantos.moneymeans.domain.Services.UpdateServiceManager" />
+
+
+    </application>
+
+</manifest>

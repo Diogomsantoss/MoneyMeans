@@ -1,0 +1,163 @@
+
+
+<RelativeLayout xmlns:mask="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1"
+    android:id="@+id/container_financing_relative">
+
+
+
+<LinearLayout xmlns:mask="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1"
+    android:id="@+id/container_financing">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Modulo de projeção de financiamento"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/txt_total_value_financing"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:ellipsize="start"
+        android:hint="Valor total do financiamento"
+        android:layout_gravity="center"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:ellipsize="start"
+            android:id="@+id/txt_value_interest"
+            android:layout_gravity="right"
+            android:hint="% de Juros"
+            android:layout_margin="5dp" />
+
+        <Switch
+            android:id="@+id/switch_interest_type"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:textOff="SIMPLES"
+            android:textOn="COMPOSTOS"
+            android:checked="false"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.25" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:ellipsize="start"
+        android:id="@+id/parcels_number"
+        android:layout_gravity="right"
+        android:hint="Numero de parcelas"
+        android:layout_margin="5dp"
+        android:autoText="true"
+        android:numeric="signed|integer" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Parcelas"
+        android:id="@+id/btnListParcelas"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/raisedbutton"
+        android:enabled="false" />
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="225dp"
+        android:id="@+id/list_financiamento"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+</LinearLayout>
+
+    <Button
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar proposta de financiamento (essa lista)"
+        android:id="@+id/button_create_financing_proposal"
+        android:textStyle="bold"
+        android:enabled="false"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:weightSum="1"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="0dp"
+        android:layout_margin="0dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            style="@android:style/Widget.DeviceDefault.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voltar ao Módulo Registrador"
+            android:id="@+id/btn_main_transaction_entry_activity"
+            android:textStyle="bold"
+            android:enabled="true"
+            android:layout_gravity="left|center"
+            android:textSize="10dp"
+            android:layout_weight="0.92" />
+
+        <Button
+            style="@android:style/Widget.DeviceDefault.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lista de Propostas de Financiamento"
+            android:id="@+id/btnProposalsList"
+            android:textStyle="bold"
+            android:enabled="true"
+            android:layout_gravity="center|right"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+</RelativeLayout>
+
