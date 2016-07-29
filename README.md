@@ -11,7 +11,6 @@ Simple, easy to use and very efficent.”
 // My Taks: Data Modeling, Android App, Admin area. 
 // Tools: Java, Android SDK, Sqlite.
 
-<div style="text-align:center">
 
 ![alt tag](http://diogomoura.esy.es/wp-content/themes/themeforest-6434280-impreza-retina-responsive-wordpress-theme/Impreza/img/slider-moneymeans/splash-screen-0.JPG)
 ![alt tag](http://diogomoura.esy.es/wp-content/themes/themeforest-6434280-impreza-retina-responsive-wordpress-theme/Impreza/img/slider-moneymeans/date-select-3.JPG)
@@ -20,7 +19,6 @@ Simple, easy to use and very efficent.”
 ![alt tag](http://diogomoura.esy.es/wp-content/themes/themeforest-6434280-impreza-retina-responsive-wordpress-theme/Impreza/img/slider-moneymeans/projetor-financiamento-2.JPG)
 ![alt tag](http://diogomoura.esy.es/wp-content/themes/themeforest-6434280-impreza-retina-responsive-wordpress-theme/Impreza/img/slider-moneymeans/category-graph-5.JPG)
 
-</div>
 
 
 
