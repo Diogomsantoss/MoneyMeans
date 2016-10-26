@@ -12,12 +12,12 @@ Simple, easy to use and very efficent.”
 // Tools: Java, Android SDK, Sqlite.
 
 
-![alt tag](http://diogomoura.esy.es/wp-content/themes/themeforest-6434280-impreza-retina-responsive-wordpress-theme/Impreza/img/slider-moneymeans/splash-screen-0.JPG)
-![alt tag](http://diogomoura.esy.es/wp-content/themes/themeforest-6434280-impreza-retina-responsive-wordpress-theme/Impreza/img/slider-moneymeans/date-select-3.JPG)
-![alt tag](http://diogomoura.esy.es/wp-content/themes/themeforest-6434280-impreza-retina-responsive-wordpress-theme/Impreza/img/slider-moneymeans/expenses-list-4.JPG)
-![alt tag](http://diogomoura.esy.es/wp-content/themes/themeforest-6434280-impreza-retina-responsive-wordpress-theme/Impreza/img/slider-moneymeans/inicial-rastreado-1.JPG)
-![alt tag](http://diogomoura.esy.es/wp-content/themes/themeforest-6434280-impreza-retina-responsive-wordpress-theme/Impreza/img/slider-moneymeans/projetor-financiamento-2.JPG)
-![alt tag](http://diogomoura.esy.es/wp-content/themes/themeforest-6434280-impreza-retina-responsive-wordpress-theme/Impreza/img/slider-moneymeans/category-graph-5.JPG)
+![alt tag](http://diogomoura.esy.es/wp-content/themes/diogomoura/img/slider-moneymeans/splash-screen-0.JPG)
+![alt tag](http://diogomoura.esy.es/wp-content/themes/diogomoura/img/slider-moneymeans/date-select-3.JPG)
+![alt tag](http://diogomoura.esy.es/wp-content/themes/diogomoura/img/slider-moneymeans/expenses-list-4.JPG)
+![alt tag](http://diogomoura.esy.es/wp-content/themes/diogomoura/img/slider-moneymeans/inicial-rastreado-1.JPG)
+![alt tag](http://diogomoura.esy.es/wp-content/themes/diogomoura/img/slider-moneymeans/projetor-financiamento-2.JPG)
+![alt tag](http://diogomoura.esy.es/wp-content/themes/diogomoura/img/slider-moneymeans/category-graph-5.JPG)
 
 
 
